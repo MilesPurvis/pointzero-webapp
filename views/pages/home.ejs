@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <%- include('../shared/head') %>
+  </head>
+
+  <body>
+    <main>
+      <%- include('../shared/nav') %>
+      <section id="contact" class="get-started">
+        <div class="container">
+          <div class="row">
+            <h1 class="display-3 fw-bold text-capitalize">Get in touch</h1>
+            <div class="heading-line"></div>
+            <p class="lh-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque accusantium ipsam, maiores sequi dicta asperiores
+              officiis. Nam placeat, assumenda excepturi aspernatur cum ad quas,
+              ex tempore obcaecati voluptatem iste velit.
+            </p>
+          </div>
+
+          <!-- cta section -->
+          <div class="row text-white">
+            <div class="col-12 col-lg-6 gradient shadow p-2">
+              <iframe
+                width="100%"
+                height="500px"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=29%20Northfield%20Dr%20W,%20Waterloo+(My%20Business%20Name)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              >
+              </iframe>
+            </div>
+            <div class="col-12 col-lg-6 bg-white shadow p-3">
+              <div class="form w-100 pb-2">
+                <h4 class="display-3--title mb-5">Contact us</h4>
+                <form action="#" class="row">
+                  <div class="col-lg-6 col-md-6 mb-3">
+                    <input
+                      type="text"
+                      placeholder="First Name"
+                      id="inputFirstName"
+                      class="form-control shadow from-control-lg"
+                    />
+                  </div>
+                  <div class="col-lg-6 col-md-6 mb-3">
+                    <input
+                      type="text"
+                      placeholder="Last Name"
+                      id="inputLastName"
+                      class="form-control shadow from-control-lg"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      placeholder="email address"
+                      id="inputEmail"
+                      class="form-control shadow from-control-lg"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <textarea
+                      name="message"
+                      id="message"
+                      placeholder="message"
+                      rows="3"
+                      class="form-control shadow from-control-lg"
+                    ></textarea>
+                  </div>
+                  <div class="text-center d-grid mt-1">
+                    <button
+                      type="button"
+                      class="btn btn-primary rounded-pill pt-3 pb-3"
+                    >
+                      Submit
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- include('../shared/footer') %>
+    </main>
+
+    <%- include('../shared/scripts') %>
+  </body>
+</html>

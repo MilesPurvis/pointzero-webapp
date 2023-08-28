@@ -1,0 +1,22 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.get-started {
+  padding: 10rem 0;
+  background-color: $gray-200;
+}
+
+//form content
+.form {
+  padding: 3rem;
+
+  button {
+    border: none;
+    color: $white;
+  }
+  a {
+    color: $white;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+}

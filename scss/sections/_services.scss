@@ -1,0 +1,76 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.services {
+  padding: 10 0rem;
+  @include gradient;
+}
+
+.composites {
+  padding: 0;
+  @include media-breakpoint-up(sm) {
+    padding: 0 10rem;
+  }
+}
+
+#composites {
+  padding-top: 3rem;
+}
+
+.rollcages {
+  padding: 0;
+  @include media-breakpoint-up(sm) {
+    padding: 0 10rem;
+  }
+}
+
+#rollcages {
+  padding-top: 8rem;
+}
+
+.section-3 {
+  background-color: $gray-200;
+}
+
+#car-audio {
+  padding: 0;
+  @include media-breakpoint-up(sm) {
+    padding: 0 10rem;
+  }
+
+  .btn-rounded {
+    background-color: $primary;
+    color: $white;
+    span {
+      background-color: $white;
+
+      i {
+        color: $primary;
+      }
+    }
+    &:hover {
+      color: $primary;
+      background-color: $white;
+      box-shadow: 0 0 2px $primary;
+      span {
+        background-color: $primary;
+
+        i {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.brands-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  
+}
+
+.img-card-brands {
+  width: 7rem;
+}

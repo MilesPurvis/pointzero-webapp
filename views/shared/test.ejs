@@ -1,0 +1,178 @@
+<div class="container">
+  <div class="row row-cols-md-2 col-md-12 my-5">
+    <!--Form-->
+    <div class="">
+      <form
+        class="col bg-dark bg-opacity-50 p-3 rounded"
+        action="mailto:pzsquared@hotmail.com?subject=General&nbsp;inquiry"
+        method="POST"
+        enctype="text/plain"
+      >
+        <legend class="text-light display-6">Contact Us</legend>
+        <label class="form-label text-light" for="name">Name:</label>
+        <input
+          class="form-control"
+          type="text"
+          id="name"
+          name="Senders Name"
+          placeholder="First & Last Name"
+          required
+        />
+        <label class="form-label text-light" for="email">Email:</label>
+        <input
+          class="form-control"
+          type="email"
+          name="Customer Email"
+          id="email"
+          placeholder="youremail@example.ca"
+          required
+        />
+        <label class="form-label text-light" for="car-make"> Car Make:</label>
+
+        <input
+          class="form-control"
+          type="text"
+          name="Car Make"
+          id="car-make"
+          placeholder="eg. Honda"
+          required
+        />
+        <label class="form-label text-light" for="car-model">Car Model:</label>
+        <input
+          class="form-control"
+          type="text"
+          name="Car Model"
+          id="car-model"
+          placeholder="eg. Civic Si"
+          required
+        />
+        <label class="form-label text-light" for="date-dropdown"
+          >Model Year:</label
+        >
+        <select
+          class="form-select"
+          name="Model Year"
+          id="date-dropdown"
+          required
+        ></select>
+        <!-- Modify this app.js -->
+        <script src="./scripts/yearSelect.js"></script>
+        <label class="form-label text-light" for="subject">Subject:</label>
+        <input class="form-control" type="text" name="Subject" id="subject"
+        placeholder=""Enter Subject" required />
+        <label class="form-label text-light" for="email-box">Message:</label>
+        <textarea class="form-control" name="Message" id="email-box">
+        </textarea>
+        <input
+          class="form-control btn-primary mt-2"
+          type="submit"
+          value="Send"
+          id="button"
+        />
+      </form>
+    </div>
+
+    <!--Map-->
+    <div>
+      <div class="bg-dark bg-opacity-50 p-3 mb-3 rounded">
+        <legend class="text-light display-6">Find us on the map!</legend>
+
+        <div class="d-flex align-items-center">
+          <iframe
+            width="100%"
+            height="500px"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=29%20Northfield%20Dr%20W,%20Waterloo+(My%20Business%20Name)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Content-->
+
+  <div class="row card my-5 bg-dark bg-opacity-75">
+    <div class="card-body text-light">
+      <h4 class="card-title">What is Time Attack?</h4>
+
+      <p class="card-text">
+        "Time attack racing is a type of motorsport where the racers compete for
+        the best lap time. Each vehicle is timed through circuits of the track.
+        The racers make a preliminary circuit, then run the timed laps, and then
+        finish with a cool-down lap. Time attack and time trial events differ by
+        competition format and rules. Time attack has a limited number of laps,
+        time trial has open sessions"
+      </p>
+      <a
+        class="btn btn-secondary"
+        href="https://www.motortrend.com/features/what-is-time-attack/"
+        >Motortrend: What Is Time Attack</a
+      >
+    </div>
+  </div>
+  <div class="ratio ratio-16x9 my-5">
+    <iframe
+      class="embed-responsive-item card"
+      src="https://www.youtube.com/embed/eZMufMCJfcU"
+      title="TIME ATTACK Racing EXPLAINED!"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>
+
+<!-- footer -->
+<div class="bg-dark bg-gradient text-light">
+  <footer
+    class="row row-cols-1 row-cols-sm-1 row-cols-md-3 py-5 border-top text-center"
+  >
+    <p class="col mb-3">&copy; 2022-Point Zero Autosound</p>
+    <div class="col mb-3">
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">
+          <a
+            class="nav-link link-light p-0"
+            href="https://www.instagram.com/pztuningwill/"
+          >
+            <i class="fa-brands fa-instagram"></i> pztuningwill</a
+          >
+        </li>
+        <li class="nav-item mb-2">
+          <a
+            class="nav-link link-light p-0"
+            href="https://www.instagram.com/pztuning.ca/"
+          >
+            <i class="fa-brands fa-instagram"></i> pztuning.ca</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="col mb-3">
+      <ul class="nav flex-column">
+        <li><b>Pztuning / Point Zero Autosound:</b></li>
+        <li class="nav-item mb-2">
+          <address class="">
+            29 Northfield Dr W, <br />
+            Waterloo, ON N2V 2G2
+          </address>
+        </li>
+        <li class="nav-item mb-2">
+          <a class="nav-link link-light p-0" href="tel:5198853394"
+            ><i class="fa-solid fa-phone"></i> (519) 885-3394</a
+          >
+        </li>
+        <li class="nav-item mb-2">
+          <a
+            class="nav-link link-light p-0"
+            href="mailto:pzsquared@hotmail.com?subject=General&nbsp;inquiry"
+          >
+            <i class="fa-solid fa-envelope"></i> pzsquared@hotmail.com
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
