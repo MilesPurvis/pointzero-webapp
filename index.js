@@ -22,6 +22,9 @@ app.get('/partners', (req, res) => {
 app.get('/services', (req, res) => {
   res.render('pages/services');
 });
+app.get('/cycling', (req, res) => {
+  res.render('pages/cycling');
+});
 
 //run the web app
 app.listen(port, () => {

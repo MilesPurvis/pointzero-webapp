@@ -37,6 +37,11 @@
   @include media-breakpoint-up(sm) {
     padding: 0 10rem;
   }
+  .brands-container {
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
 
   .btn-rounded {
     background-color: $primary;
@@ -68,7 +73,6 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  
 }
 
 .img-card-brands {

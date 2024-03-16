@@ -1,0 +1,13 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.bike {
+  li {
+    color: $secondary;
+    list-style: none;
+    text-align: left;
+    margin-left: 5em;
+    font-size: large;
+    font-weight: bold;
+  }
+}

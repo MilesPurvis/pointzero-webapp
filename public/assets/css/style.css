@@ -12084,6 +12084,15 @@ textarea.form-control-lg {
   object-fit: contain;
 }
 
+.bike li {
+  color: #000000;
+  list-style: none;
+  text-align: left;
+  margin-left: 5em;
+  font-size: large;
+  font-weight: bold;
+}
+
 .services {
   padding: 10 0rem;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(196, 31, 25, 0.95));
@@ -12127,6 +12136,11 @@ textarea.form-control-lg {
     padding: 0 10rem;
   }
 }
+@media (max-width: 767.98px) {
+  #car-audio .brands-container {
+    display: none;
+  }
+}
 #car-audio .btn-rounded {
   background-color: #c41f19;
   color: #fff;
@@ -12154,7 +12168,6 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  width: auto;
 }
 
 .img-card-brands {
